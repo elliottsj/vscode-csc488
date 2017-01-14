@@ -6,6 +6,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ## [Unreleased]
 ### Added
 - EditorConfig configuration
+- More package.json fields for publishing to VSCode marketplace
 
 ## [0.0.2] - 2017-01-13
 ### Added

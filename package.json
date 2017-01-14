@@ -4,6 +4,16 @@
   "description": "CSC488 source language support",
   "version": "0.0.1",
   "publisher": "elliottsj",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elliottsj/vscode-csc488.git"
+  },
+  "author": "Spencer Elliott <me@elliottsj.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elliottsj/vscode-csc488/issues"
+  },
+  "homepage": "https://github.com/elliottsj/vscode-csc488#readme",
   "engines": {
     "vscode": "^1.5.0"
   },
