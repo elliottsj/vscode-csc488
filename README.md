@@ -20,6 +20,7 @@ CSC488 language extension for Visual Studio Code
 - [ ] Integrate with compiler
   - [ ] Compile code with F5
   - [ ] View compile errors in editor
+- [ ] Icon for VSCode marketplace
 
 ## Resources
 - [VSCode: Adding Language Colorization](https://code.visualstudio.com/Docs/customization/colorizer)
