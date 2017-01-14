@@ -26,7 +26,7 @@ Install from the [Visual Studio Code Marketplace](https://marketplace.visualstud
 - [ ] Integrate with compiler
   - [ ] Compile code with F5
   - [ ] View compile errors in editor
-- [ ] Icon for VSCode marketplace
+- [x] Icon for VSCode marketplace
 
 ## Resources
 - [VSCode: Adding Language Colorization](https://code.visualstudio.com/Docs/customization/colorizer)
