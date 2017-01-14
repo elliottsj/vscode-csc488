@@ -1,7 +1,7 @@
 {
   "name": "vscode-csc488",
   "displayName": "CSC488 Source Language",
-  "description": "CSC488 source language support",
+  "description": "CSC488 (winter 2017) source language support",
   "version": "0.0.5",
   "publisher": "elliottsj",
   "repository": {
