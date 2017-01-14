@@ -32,7 +32,7 @@
 				"name": "keyword.declaration.csc488",
 				"match": "\\b(var|function|procedure)\\b"
 			}, {
-				"name": "keyword.type.csc488",
+				"name": "support.type.csc488",
 				"match": "\\b(Integer|Boolean)\\b"
 			}]
 		},
