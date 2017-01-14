@@ -3,6 +3,9 @@
 	"name": "CSC488 Source Language",
 	"patterns": [
 		{
+			"include": "#comments"
+		},
+		{
 			"include": "#keywords"
 		},
 		{
@@ -10,6 +13,17 @@
 		}
 	],
 	"repository": {
+		"comments": {
+			"patterns": [{
+					"match": "(%).*$\\n?",
+					"name": "comment.line.csc488",
+					"captures": {
+							"1": {
+									"name": "punctuation.definition.comment.csc488"
+							}
+					}
+			}]
+		},
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.csc488",

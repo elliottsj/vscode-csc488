@@ -5,6 +5,7 @@ CSC488 language extension for Visual Studio Code
 
 ## Roadmap
 - [ ] Syntax highlighting
+  - [x] Comments
   - [x] Control flow keywords
   - [x] Declaration keywords
   - [ ] Output keywords
