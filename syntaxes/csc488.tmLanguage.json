@@ -30,15 +30,27 @@
       "patterns": [
         {
           "name": "keyword.control.csc488",
-          "match": "\\b(if|then|else|while|do|repeat|until|exit|when|return|with|write|read)\\b"
+          "match": "\\b(if|then|else|while|do|repeat|until|exit|when|return|with|newline|:|\\.\\.)\\b"
+        },
+        {
+          "name": "keyword.operator.csc488",
+          "match": "\\b(not|and|or)\\b"
         },
         {
           "name": "keyword.declaration.csc488",
           "match": "\\b(var|function|procedure)\\b"
         },
         {
+          "name": "keyword.other.io.csc488",
+          "match": "\\b(read|write)\\b"
+        },
+        {
           "name": "support.type.csc488",
           "match": "\\b(Integer|Boolean)\\b"
+        },
+        {
+          "name": "constant.language.boolean.csc488",
+          "match": "\\b(true|false)\\b"
         }
       ]
     },
