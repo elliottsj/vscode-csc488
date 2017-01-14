@@ -1,7 +1,7 @@
 # vscode-csc488
 🚧 Work-in-progress 🚧
 
-CSC488 language extension for Visual Studio Code
+CSC488 language extension for Visual Studio Code. Provides syntax highlighting and other features for the Winter 2017 version of the CSC488 Source Language.
 
 ![Example syntax highlighting](images/example.png)
 
