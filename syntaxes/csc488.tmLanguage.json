@@ -31,6 +31,9 @@
 			}, {
 				"name": "keyword.declaration.csc488",
 				"match": "\\b(var|function|procedure)\\b"
+			}, {
+				"name": "support.type.csc488",
+				"match": "\\b(Integer|Boolean)\\b"
 			}]
 		},
 		"strings": {
