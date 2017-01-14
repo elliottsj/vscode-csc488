@@ -3,6 +3,10 @@ All notable changes to the "CSC488" extension will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+### Added
+- Marketplace icon, courtesy of @arkon
+
 ## [0.0.4] - 2017-01-14
 ### Added
 - Example screenshot in README
