@@ -1,26 +1,26 @@
 {
-    "name": "vscode-csc488",
-    "displayName": "CSC488 Source Language",
-    "description": "CSC488 source language support",
-    "version": "0.0.1",
-    "publisher": "elliottsj",
-    "engines": {
-        "vscode": "^1.5.0"
-    },
-    "categories": [
-        "Languages"
-    ],
-    "contributes": {
-        "languages": [{
-            "id": "csc488",
-            "aliases": ["CSC488 Source Language", "csc488"],
-            "extensions": [".488"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "csc488",
-            "scopeName": "source.csc488",
-            "path": "./syntaxes/csc488.tmLanguage.json"
-        }]
-    }
+  "name": "vscode-csc488",
+  "displayName": "CSC488 Source Language",
+  "description": "CSC488 source language support",
+  "version": "0.0.1",
+  "publisher": "elliottsj",
+  "engines": {
+    "vscode": "^1.5.0"
+  },
+  "categories": [
+    "Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "csc488",
+      "aliases": ["CSC488 Source Language", "csc488"],
+      "extensions": [".488"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "csc488",
+      "scopeName": "source.csc488",
+      "path": "./syntaxes/csc488.tmLanguage.json"
+    }]
+  }
 }
