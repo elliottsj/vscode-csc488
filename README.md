@@ -12,7 +12,7 @@ Install from the [Visual Studio Code Marketplace](https://marketplace.visualstud
   - [x] Control flow keywords
   - [x] Declaration keywords
   - [ ] Output keywords
-  - [ ] Type keywords
+  - [x] Type keywords
   - [ ] Expression (Boolean) keywords
   - [ ] Other syntax...
 - [ ] Auto indenting
