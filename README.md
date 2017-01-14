@@ -3,6 +3,8 @@
 
 CSC488 language extension for Visual Studio Code
 
+![Example syntax highlighting](images/example.png)
+
 ## Installation
 Install from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=elliottsj.vscode-csc488).
 
