@@ -13,9 +13,9 @@ Install from the [Visual Studio Code Marketplace](https://marketplace.visualstud
   - [x] Comments
   - [x] Control flow keywords
   - [x] Declaration keywords
-  - [ ] Output keywords
+  - [x] Output keywords
   - [x] Type keywords
-  - [ ] Expression (Boolean) keywords
+  - [x] Expression (Boolean) keywords
   - [ ] Other syntax...
 - [ ] Auto indenting
 - [ ] Code navigation
