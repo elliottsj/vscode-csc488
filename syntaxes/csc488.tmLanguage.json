@@ -93,6 +93,10 @@
           "match": "\\b(var|procedure)\\b"
         },
         {
+          "name": "keyword.operator.assignment",
+          "match": ":\\s*="
+        },
+        {
           "name": "keyword.other.io.csc488",
           "match": "\\b(read|write)\\b"
         },
