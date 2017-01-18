@@ -6,10 +6,16 @@
       "include": "#comments"
     },
     {
+      "include": "#functions"
+    },
+    {
       "include": "#keywords"
     },
     {
       "include": "#strings"
+    },
+    {
+      "include": "#types"
     }
   ],
   "repository": {
@@ -21,6 +27,52 @@
           "captures": {
             "1": {
               "name": "punctuation.definition.comment.csc488"
+            }
+          }
+        }
+      ]
+    },
+    "functions": {
+      "name": "meta.function.csc488",
+      "begin": "\\s*(function)\\s+([[:alpha:]_][[:alnum:]_]*)",
+      "beginCaptures": {
+        "1": {
+          "name": "storage.type.function.csc488"
+        },
+        "2": {
+          "name": "entity.name.function.csc488"
+        }
+      },
+      "end": "{",
+      "patterns": [
+        {
+          "comment": "Between the function name and the beginning of the scope, match the return type declaration",
+          "begin": "(:)",
+          "beginCaptures": {
+            "1": {
+              "name": "punctuation.separator.annotation.result.csc488"
+            }
+          },
+          "end": "(?={)",
+          "patterns": [
+            {
+              "include": "#types"
+            }
+          ]
+        },
+        {
+          "name": "meta.parameters.csc488",
+          "comment": "Between the function name and the beginning of the scope, match the function parameters",
+          "begin": "(\\()",
+          "beginCaptures": {
+            "1": {
+              "name": "punctuation.definition.parameters.begin.csc488"
+            }
+          },
+          "end": "(\\))",
+          "endCaptures": {
+            "1": {
+              "name": "punctuation.definition.parameters.end.csc488"
             }
           }
         }
@@ -38,15 +90,11 @@
         },
         {
           "name": "keyword.declaration.csc488",
-          "match": "\\b(var|function|procedure)\\b"
+          "match": "\\b(var|procedure)\\b"
         },
         {
           "name": "keyword.other.io.csc488",
           "match": "\\b(read|write)\\b"
-        },
-        {
-          "name": "support.type.csc488",
-          "match": "\\b(Integer|Boolean)\\b"
         },
         {
           "name": "constant.language.boolean.csc488",
@@ -64,6 +112,10 @@
           "match": "\\\\."
         }
       ]
+    },
+    "types": {
+      "name": "support.type.csc488",
+      "match": "\\b(Integer|Boolean)\\b"
     }
   },
   "scopeName": "source.csc488"
