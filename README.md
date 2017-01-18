@@ -32,3 +32,6 @@ Install from the [Visual Studio Code Marketplace](https://marketplace.visualstud
 - [VSCode: Adding Language Colorization](https://code.visualstudio.com/Docs/customization/colorizer)
 - [TextMate Language Grammars](https://manual.macromates.com/en/language_grammars)
 - [Sublime Text Syntax Definitions](http://sublimetext.info/docs/en/extensibility/syntaxdefs.html)
+- [tmlanguage spec](https://github.com/martinring/tmlanguage)
+- [VSCode Python tmLanguage](https://github.com/Microsoft/vscode/blob/master/extensions/python/syntaxes/MagicPython.tmLanguage.json)
+- [VSCode JavaScript tmLanguage](https://github.com/Microsoft/vscode/blob/master/extensions/javascript/syntaxes/JavaScript.tmLanguage.json)
